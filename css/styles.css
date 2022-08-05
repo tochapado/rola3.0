@@ -1,0 +1,284 @@
+/* TAGS */
+
+body {
+    background-color: #fe3d9a;
+    color: #ffff00;
+    height: 100%;
+    font-family: monospace;
+    font-size: 1rem;
+    position: relative;
+    margin: 0px;
+    width: 100%;    
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Shizuru', monospace;
+    font-size: 2.81rem;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Syne Mono', monospace;
+    font-size: 5rem;
+    margin: 0;
+    padding: 3%;
+    text-align: center;    
+}
+
+h3 {
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* CLASSES *********************************************************/
+
+.ain {
+    border-radius: 100%;
+    float: left;
+    height: 400px;
+    margin: 0 6.25rem;
+}
+
+.btn-insta {
+    background: #d93434;
+    background-image: linear-gradient(to bottom, #d93434, #ffdd00);
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Syne Mono', Arial;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px #000000;
+    width: 120px;
+}
+  
+.btn-insta:hover {
+    background-image: linear-gradient(to bottom, #26cbcb, #0022ff);
+    text-decoration: none;
+}
+
+.btn-mail {
+    background: #ff0000;    
+    background-image: linear-gradient(to bottom, #ff0000, #ffffff);
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Syne Mono', Arial;
+    font-size: 1.5rem;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000000;
+    width: 100px;
+}
+  
+.btn-mail:hover {
+    background-image: linear-gradient(to bottom, #00ffff, #000000);
+    color: #000000;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #ffffff;
+}
+
+.btn-steam {
+    background: #0066ff;
+    background-image: linear-gradient(to bottom, #0066ff, #ffc800);
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Syne Mono', arial;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000000;
+    width: 100px;    
+}
+  
+.btn-steam:hover {
+    background-image: linear-gradient(to bottom, #ff9900, #0037ff);
+    color: #000000;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #ffffff;
+}
+
+.bottom {
+    background-color: #ffff00;
+    height: 1600px;
+    margin: 0;
+    width: 100%;
+}
+
+.contact-me {
+    color: #fe1624;
+    display: block;
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.desc-1 {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    width: 50%;
+}
+
+.desc-2 {
+    display: inline-block;
+    position: relative;
+    left: 19%;
+    text-align: right;
+    width: 50%;
+}
+
+.footer {
+    display: inline-block;
+    color: #fe3d9a;
+    font-size: 1.5rem;
+    position: relative;
+    width: 100%;
+}
+
+.footer-link {
+    display: block;
+    text-align: center;
+}
+
+.forget {
+    border-radius: 100%;
+    display: block;
+    margin: 50px auto;
+    width: 25%;
+}
+
+.leet {
+    font-family: 'Syne Mono', monospace;
+    font-size: 5rem;
+}
+
+.lit {
+    bottom: -20px;
+    height: 1337px;
+    left: -420px;
+    position: absolute;
+}
+
+.mail {
+    display: block;
+    text-align: center;
+}
+
+.me {
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+    padding-top: 5%
+}
+
+.middle-up {
+    background-color: #fe1624;
+    color: #ffff00;
+    height: 600px;
+    margin: 0px;
+    position: relative;
+    width: 100%;    
+}
+
+.middle-middle {
+    background-color: #fb6822;
+    height: 1100px;
+    width: 100%;
+    margin: 0px;
+    position: relative;
+}
+
+.middle-down {
+    background-color: #faa530;
+    color: #fe3d9a;
+    height: 700px;
+    margin: 0px;
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+
+.queota {
+    border-radius:100%;
+    display: box;
+    float: right;
+    height: 400px;
+    margin: 10% 6.25rem 0 6.25rem;
+    position: relative;
+    right: 0%;
+    text-align: right;
+}
+
+.skill-1 {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 5% 0 0 0;
+    position: relative;
+    text-align: justify;
+    width: 50%;
+}
+
+.skill-2 {
+    display: inline-block;
+    font-size: 3rem;
+    position: relative;
+    left: 19%;
+    text-align: right;
+    width: 50%;
+}
+
+.top {
+    color: #ffff00;
+    margin: 0px;
+    height: 300px;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.vina {
+    height: 20%;
+    position: fixed;
+    top: 81%;
+    right: -5%;
+}
+
+.vininha {
+    display: block;
+    height: 95%;
+    margin: auto;
+    padding-top: 0.625rem;
+    position: relative;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff0;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fe1624;
+}
